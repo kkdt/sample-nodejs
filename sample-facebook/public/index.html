@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sample Facebook Login</title>
+<script src="https://connect.facebook.net/en_US/sdk.js"></script>
+<script src="index.js"></script>
+</head>
+<body>
+
+<div class="fb-login-button"
+   data-max-rows="1"
+   data-size="xlarge"
+   data-show-faces="false"
+   data-auto-logout-link="true" onlogin="driver.getLoginStatus();"></div>
+
+<div id="user">
+</div>
+
+<hr/>
+<div id="status">
+</div>
+
+<script>
+// testing out when things are loaded with respect to facebook sdk and javascript
+window.onload = function() {
+   console.log('window loaded');
+}
+</script>
+
+</body>
+</html>

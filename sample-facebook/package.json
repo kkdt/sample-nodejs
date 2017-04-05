@@ -1,0 +1,11 @@
+{
+  "name": "sample-facebook",
+  "version": "1.0.0",
+  "description": "Sample Facebook Login",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kkdt",
+  "license": "MIT"
+}
